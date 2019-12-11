@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "New Window",
+  "version": "0.1",
+  "permissions": [
+    "tabs"
+],
+  "browser_action": {
+      "default_icon": "icon.png",
+      "default_title": "Extension into New Window"
+  },
+  "background": {
+      "scripts": ["background.js"]
+  }
+}
