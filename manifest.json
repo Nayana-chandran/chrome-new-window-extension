@@ -3,6 +3,7 @@
   "name": "New Window",
   "version": "0.1",
   "permissions": [
+    "https://github.com/",
     "tabs"
 ],
   "browser_action": {
